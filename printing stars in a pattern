@@ -1,0 +1,19 @@
+n = input("input how many number of lines * do you want")
+while True:
+    try:
+        n=int(n)
+    except:
+        n =input("pls input a valid  number")
+        continue
+    break
+
+m="*"
+l=""
+
+for x in range(n):
+    p=""
+    l=l+m 
+    t=n-x
+    for y in range(t):
+        p=p+" "
+    print(p,l)
