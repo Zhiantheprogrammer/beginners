@@ -6,6 +6,6 @@ for x in(n):
         if x==y:
             m=m+1
             if m>=2:
-                print("the number",x,"is reapeted in the array i made")
+                print("the letter",x,"is reapeted in the name you gave ")
                 quit()
 print("there is no letter reapeted in the name you gave")
