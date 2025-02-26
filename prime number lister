@@ -1,0 +1,19 @@
+a = 0
+c = 0
+d = 0
+e = 0
+b = int(input("untill how many prime numbers do you want ?"))
+print("these are all the prime numbers between 1 and ",b)
+for x in range(b):
+    a=a+1
+    for j in range(b):
+        d+=1
+        if a % d == 0:
+            c+=1
+            
+    d = 0
+    if c<=2:
+        e=e+1
+        print(a)
+    c = 0
+print("there are ",e," prime numbers between 1 and ",b)            
