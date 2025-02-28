@@ -6,7 +6,7 @@ b = int(input("untill how many prime numbers do you want ?"))
 print("these are all the prime numbers between 1 and ",b)
 for x in range(b):
     a=a+1
-    for j in range(b):
+    for j in range(a):
         d+=1
         if a % d == 0:
             c+=1
